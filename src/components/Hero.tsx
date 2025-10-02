@@ -52,7 +52,7 @@ const Hero = ({ onCtaClick }: HeroProps) => {
             onClick={onCtaClick}
             aria-label="Preencher formulário para fazer parte da Rede Mapas"
           >
-            Preencha o formulário e faça parte dessa transformação
+            Faça parte dessa transformação
             <ArrowRight className="ml-2" />
           </Button>
         </div>
