@@ -17,7 +17,7 @@ const ContactForm = () => {
             </CardHeader>
             <CardContent className="flex justify-center">
               <iframe 
-                src="https://institutofluir.org.br/wp-admin/admin-ajax.php?action=frm_forms_preview&form=rede-mapas" 
+                src="https://docs.google.com/forms/d/e/1FAIpQLScwQevo92hovgCoHcqf_1JabxdD6LcSBgDXIKctZMC6BzGKKQ/viewform?embedded=true" 
                 width="640" 
                 height="821" 
                 frameBorder="0" 
