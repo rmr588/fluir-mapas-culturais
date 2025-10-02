@@ -17,7 +17,7 @@ const ContactForm = () => {
             </CardHeader>
             <CardContent className="flex justify-center">
               <iframe 
-                src="https://docs.google.com/forms/d/e/1FAIpQLScwQevo92hovgCoHcqf_1JabxdD6LcSBgDXIKctZMC6BzGKKQ/viewform?embedded=true" 
+                src="https://pecas.mapas.tec.br/forms/KooJUYT0tTTsZ390sG1Y0" 
                 width="640" 
                 height="821" 
                 frameBorder="0" 
