@@ -26,7 +26,7 @@ const Footer = () => {
                 </div>
                 <div className="flex items-center gap-2">
                   <Phone className="w-4 h-4" />
-                  <a href="tel:+5562981532630" className="hover:text-accent transition-smooth" aria-label="Ligar para o Instituto Fluir">
+                  <a href="https://wa.me/5562981532630" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-smooth" aria-label="Abrir WhatsApp do Instituto Fluir">
                     (62) 98153-2630
                   </a>
                 </div>
