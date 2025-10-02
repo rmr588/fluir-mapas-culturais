@@ -1,17 +1,11 @@
 import ecosystemImage from "@/assets/ecosystem.jpg";
-
 const ImpactSection = () => {
-  return (
-    <section className="py-20 bg-muted" id="impacto">
+  return <section className="py-20 bg-muted" id="impacto">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-scale-in">
-              <img 
-                src={ecosystemImage} 
-                alt="Ecossistema da Rede Mapas" 
-                className="rounded-2xl shadow-elegant w-full h-auto"
-              />
+              <img src={ecosystemImage} alt="Ecossistema da Rede Mapas" className="rounded-2xl shadow-elegant w-full h-auto" />
             </div>
             
             <div className="animate-slide-up">
@@ -37,7 +31,7 @@ const ImpactSection = () => {
                   <div className="text-sm text-muted-foreground">Editais</div>
                 </div>
                 <div className="text-center p-4 bg-card rounded-lg shadow-md">
-                  <div className="text-3xl font-bold gradient-cultural bg-clip-text text-transparent mb-1">20k+</div>
+                  
                   <div className="text-sm text-muted-foreground">Inscrições</div>
                 </div>
               </div>
@@ -45,8 +39,6 @@ const ImpactSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default ImpactSection;
