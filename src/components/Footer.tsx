@@ -30,7 +30,7 @@ const Footer = () => {
                   <Mail className="w-4 h-4" />
                   <a 
                     href="mailto:contato@institutofluir.org.br" 
-                    className="hover:text-secondary transition-smooth"
+                    className="hover:text-accent transition-smooth"
                     aria-label="Enviar e-mail para o Instituto Fluir"
                   >
                     contato@institutofluir.org.br
@@ -40,7 +40,7 @@ const Footer = () => {
                   <Phone className="w-4 h-4" />
                   <a 
                     href="tel:+5562981532630" 
-                    className="hover:text-secondary transition-smooth"
+                    className="hover:text-accent transition-smooth"
                     aria-label="Ligar para o Instituto Fluir"
                   >
                     (62) 98153-2630

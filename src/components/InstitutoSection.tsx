@@ -13,15 +13,14 @@ const InstitutoSection = () => {
               
               <div className="space-y-4 text-foreground/90">
                 <p className="text-lg leading-relaxed">
-                  O <strong>Instituto Fluir</strong> integra e fortalece a Rede Mapas, trazendo sua 
-                  experiência em mais de <strong>40 municípios</strong> e na execução de mais de{" "}
-                  <strong>70 editais</strong>, que processaram mais de <strong>20 mil inscrições</strong>{" "}
-                  de agentes culturais.
+                  O <strong>Instituto Fluir</strong> integra e fortalece a Rede Mapas, trazendo experiência 
+                  em mais de <strong>40 municípios</strong> e <strong>70 editais</strong> que processaram 
+                  mais de <strong>20 mil inscrições</strong>.
                 </p>
                 
                 <p className="text-lg leading-relaxed">
-                  Atuamos com <strong>tecnologia, consultoria, suporte e formação</strong>, garantindo 
-                  que a gestão cultural seja transparente, eficiente e participativa.
+                  Atuamos com <strong>tecnologia, consultoria, suporte e formação de equipes</strong>, 
+                  sempre com foco em transparência, eficiência e participação social.
                 </p>
               </div>
             </div>

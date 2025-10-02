@@ -21,15 +21,9 @@ const ImpactSection = () => {
               
               <div className="space-y-4 text-foreground/90">
                 <p className="text-lg leading-relaxed">
-                  A <strong>Rede Mapas</strong> hoje é sustentada por um ecossistema vivo e distribuído 
-                  de instituições, coletivos e organizações que acreditam na cultura como motor de 
-                  desenvolvimento social.
-                </p>
-                
-                <p className="text-lg leading-relaxed">
-                  O <strong>Instituto Fluir</strong> fortalece esse movimento ao democratizar o acesso 
-                  a soluções digitais que ampliam a participação social e fortalecem políticas públicas 
-                  em todo o Brasil.
+                  Com a <strong>Rede Mapas</strong> e o <strong>Instituto Fluir</strong>, a cultura brasileira 
+                  ganha um ecossistema de tecnologia viva, aberta e inclusiva, que fortalece políticas públicas 
+                  e democratiza o acesso digital em todo o Brasil.
                 </p>
               </div>
 

@@ -18,14 +18,10 @@ const AboutSection = () => {
           </h2>
           
           <div className="prose prose-lg max-w-none text-foreground/90 leading-relaxed animate-slide-up">
-            <p className="text-lg md:text-xl text-center mb-8">
-              Criada em 2023, a <strong>Rede Mapas</strong> nasceu da Política Nacional Aldir Blanc (PNAB) 
-              e evoluiu de uma plataforma de software livre para um verdadeiro ecossistema de soluções digitais.
-            </p>
-            
             <p className="text-lg md:text-xl text-center">
-              Hoje, conecta <strong>governos, artistas, coletivos e instituições</strong>, garantindo 
-              interoperabilidade, padrões abertos e transparência na gestão cultural.
+              Criada em 2023, a <strong>Rede Mapas</strong> evoluiu de uma plataforma de software livre 
+              para um verdadeiro ecossistema de soluções digitais. Conecta <strong>governos, artistas e coletivos</strong>, 
+              garantindo interoperabilidade e transparência.
             </p>
           </div>
         </div>

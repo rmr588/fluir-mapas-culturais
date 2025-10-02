@@ -10,17 +10,17 @@ const services = [
   {
     icon: FileText,
     title: "Consultoria e relatórios estratégicos",
-    description: "Otimização da PNAB com foco em eficiência e transparência",
+    description: "Análises e estratégias para otimizar a gestão cultural",
   },
   {
     icon: Users,
-    title: "Suporte técnico especializado",
-    description: "Acompanhamento contínuo para gestores e equipes",
+    title: "Otimização da PNAB",
+    description: "Transparência e eficiência na aplicação dos recursos",
   },
   {
     icon: GraduationCap,
-    title: "Formação e capacitação",
-    description: "Treinamentos para maximizar o uso da plataforma",
+    title: "Formação e suporte contínuo",
+    description: "Capacitação de equipes e acompanhamento técnico",
   },
 ];
 
@@ -45,8 +45,8 @@ const ServicesSection = () => {
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <CardHeader>
-                  <div className="w-14 h-14 rounded-full gradient-cultural flex items-center justify-center mb-4">
-                    <service.icon className="w-7 h-7 text-white" />
+                  <div className="w-14 h-14 rounded-full bg-secondary flex items-center justify-center mb-4">
+                    <service.icon className="w-7 h-7 text-secondary-foreground" />
                   </div>
                   <CardTitle className="text-xl">{service.title}</CardTitle>
                 </CardHeader>

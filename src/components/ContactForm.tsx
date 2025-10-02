@@ -53,9 +53,9 @@ const ContactForm = () => {
     <section className="py-20 bg-background" id="contato">
       <div className="container mx-auto px-4">
         <div className="max-w-2xl mx-auto">
-          <Card className="shadow-glow border-2 border-secondary/20 animate-scale-in">
+          <Card className="shadow-glow border-2 border-accent/30 bg-card animate-scale-in">
             <CardHeader className="text-center">
-              <CardTitle className="text-3xl md:text-4xl font-bold text-gradient mb-2">
+              <CardTitle className="text-3xl md:text-4xl font-bold text-primary mb-2">
                 Quero fazer parte da Rede Mapas
               </CardTitle>
               <CardDescription className="text-base">
@@ -76,7 +76,7 @@ const ContactForm = () => {
                             placeholder="Seu nome completo" 
                             {...field}
                             aria-required="true"
-                            className="transition-smooth focus:ring-2 focus:ring-secondary"
+                            className="transition-smooth focus:ring-2 focus:ring-accent"
                           />
                         </FormControl>
                         <FormMessage />
@@ -95,7 +95,7 @@ const ContactForm = () => {
                             placeholder="Cidade - UF" 
                             {...field}
                             aria-required="true"
-                            className="transition-smooth focus:ring-2 focus:ring-secondary"
+                            className="transition-smooth focus:ring-2 focus:ring-accent"
                           />
                         </FormControl>
                         <FormMessage />
@@ -115,7 +115,7 @@ const ContactForm = () => {
                             {...field}
                             type="tel"
                             aria-required="true"
-                            className="transition-smooth focus:ring-2 focus:ring-secondary"
+                            className="transition-smooth focus:ring-2 focus:ring-accent"
                           />
                         </FormControl>
                         <FormMessage />
@@ -135,7 +135,7 @@ const ContactForm = () => {
                             {...field}
                             type="email"
                             aria-required="true"
-                            className="transition-smooth focus:ring-2 focus:ring-secondary"
+                            className="transition-smooth focus:ring-2 focus:ring-accent"
                           />
                         </FormControl>
                         <FormMessage />
