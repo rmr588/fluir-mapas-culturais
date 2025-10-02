@@ -17,9 +17,9 @@ const ContactForm = () => {
             </CardHeader>
             <CardContent className="flex justify-center">
               <iframe 
-                src="https://docs.google.com/forms/d/e/1FAIpQLSfQOKM8xTXhj9x_YfqJDHPgWJF8kKKzLnUjX9nVQa7LK0zZ7g/viewform?embedded=true"
-                width="100%" 
-                height="856" 
+                src="https://docs.google.com/forms/d/e/1FAIpQLScwQevo92hovgCoHcqf_1JabxdD6LcSBgDXIKctZMC6BzGKKQ/viewform?embedded=true" 
+                width="640" 
+                height="821" 
                 frameBorder="0" 
                 marginHeight={0} 
                 marginWidth={0}
