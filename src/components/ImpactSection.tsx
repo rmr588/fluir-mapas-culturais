@@ -31,7 +31,7 @@ const ImpactSection = () => {
                   <div className="text-sm text-muted-foreground">Editais</div>
                 </div>
                 <div className="text-center p-4 bg-card rounded-lg shadow-md">
-                  
+                  <div className="text-3xl font-bold text-primary mb-1">+27 mil</div>
                   <div className="text-sm text-muted-foreground">Inscrições</div>
                 </div>
               </div>
