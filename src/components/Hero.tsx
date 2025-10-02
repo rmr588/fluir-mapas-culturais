@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import heroImage from "@/assets/hero-cultural.jpg";
+import logoInstituto from "@/assets/logo-instituto-fluir.png";
 
 interface HeroProps {
   onCtaClick: () => void;
@@ -24,9 +25,17 @@ const Hero = ({ onCtaClick }: HeroProps) => {
       {/* Content */}
       <div className="container relative z-10 px-4 py-20 mx-auto">
         <div className="max-w-4xl mx-auto text-center animate-fade-in">
+          <div className="flex justify-center mb-8">
+            <img 
+              src={logoInstituto} 
+              alt="Instituto Fluir" 
+              className="h-20 md:h-28"
+            />
+          </div>
+          
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
             Rede Mapas — Cultura Conectada por{" "}
-            <span className="text-gradient inline-block bg-gradient-to-r from-secondary via-yellow-400 to-accent bg-clip-text text-transparent">
+            <span className="text-gradient inline-block">
               Dados e Pessoas
             </span>
           </h1>

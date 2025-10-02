@@ -1,4 +1,5 @@
 import { Mail, Phone } from "lucide-react";
+import logoInstituto from "@/assets/logo-instituto-fluir.png";
 
 const Footer = () => {
   return (
@@ -17,9 +18,13 @@ const Footer = () => {
             </div>
 
             <div>
-              <h3 className="text-xl font-bold mb-4 text-gradient bg-gradient-to-r from-secondary to-accent bg-clip-text text-transparent">
-                Instituto Fluir
-              </h3>
+              <div className="mb-4">
+                <img 
+                  src={logoInstituto} 
+                  alt="Instituto Fluir" 
+                  className="h-12 brightness-0 invert"
+                />
+              </div>
               <div className="space-y-2 text-primary-foreground/80">
                 <div className="flex items-center gap-2">
                   <Mail className="w-4 h-4" />

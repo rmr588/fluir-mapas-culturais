@@ -1,4 +1,4 @@
-import networkIcon from "@/assets/network-icon.png";
+import logoInstituto from "@/assets/logo-instituto-fluir.png";
 
 const AboutSection = () => {
   return (
@@ -7,9 +7,9 @@ const AboutSection = () => {
         <div className="max-w-4xl mx-auto">
           <div className="flex items-center justify-center mb-8 animate-scale-in">
             <img 
-              src={networkIcon} 
-              alt="Ícone da Rede Mapas" 
-              className="w-24 h-24"
+              src={logoInstituto} 
+              alt="Logo Instituto Fluir" 
+              className="h-20"
             />
           </div>
           
