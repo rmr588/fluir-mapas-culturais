@@ -16,12 +16,18 @@ const ContactForm = () => {
               </CardDescription>
             </CardHeader>
             <CardContent className="flex justify-center">
-              <iframe
-                src="https://institutofluir.org.br/wp-admin/admin-ajax.php?action=frm_forms_preview&form=rede-mapas"
-                allowFullScreen
-                className="w-full h-[821px]"
+              <iframe 
+                src="https://institutofluir.org.br/wp-admin/admin-ajax.php?action=frm_forms_preview&form=rede-mapas" 
+                width="640" 
+                height="821" 
+                frameBorder="0" 
+                marginHeight={0} 
+                marginWidth={0}
+                className="max-w-2xl"
                 title="Formulário de Cadastro - Rede Mapas"
-              ></iframe>
+              >
+                Carregando…
+              </iframe>
             </CardContent>
           </Card>
         </div>
