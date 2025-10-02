@@ -1,9 +1,7 @@
 import { Mail, Phone } from "lucide-react";
 import logoInstituto from "@/assets/logo-instituto-fluir.png";
-
 const Footer = () => {
-  return (
-    <footer className="bg-primary text-primary-foreground py-12">
+  return <footer className="bg-primary text-primary-foreground py-12">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-8 mb-8">
@@ -19,30 +17,16 @@ const Footer = () => {
 
             <div>
               <div className="mb-4">
-                <img 
-                  src={logoInstituto} 
-                  alt="Instituto Fluir" 
-                  className="h-12 brightness-0 invert"
-                />
+                <img src={logoInstituto} alt="Instituto Fluir" className="h-12 brightness-0 invert" />
               </div>
               <div className="space-y-2 text-primary-foreground/80">
                 <div className="flex items-center gap-2">
                   <Mail className="w-4 h-4" />
-                  <a 
-                    href="mailto:contato@institutofluir.org.br" 
-                    className="hover:text-accent transition-smooth"
-                    aria-label="Enviar e-mail para o Instituto Fluir"
-                  >
-                    contato@institutofluir.org.br
-                  </a>
+                  <a href="mailto:contato@institutofluir.org.br" className="hover:text-accent transition-smooth" aria-label="Enviar e-mail para o Instituto Fluir">contato@mapas.cultura.org.br</a>
                 </div>
                 <div className="flex items-center gap-2">
                   <Phone className="w-4 h-4" />
-                  <a 
-                    href="tel:+5562981532630" 
-                    className="hover:text-accent transition-smooth"
-                    aria-label="Ligar para o Instituto Fluir"
-                  >
+                  <a href="tel:+5562981532630" className="hover:text-accent transition-smooth" aria-label="Ligar para o Instituto Fluir">
                     (62) 98153-2630
                   </a>
                 </div>
@@ -55,8 +39,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
