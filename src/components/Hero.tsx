@@ -48,7 +48,7 @@ const Hero = ({ onCtaClick }: HeroProps) => {
           <Button 
             variant="hero" 
             size="lg" 
-            className="text-lg px-8 py-6 h-auto relative z-[100] hover:z-[100]"
+            className="text-lg px-8 py-6 h-auto relative z-[9999]"
             onClick={onCtaClick}
             aria-label="Preencher formulário para fazer parte da Rede Mapas"
           >
