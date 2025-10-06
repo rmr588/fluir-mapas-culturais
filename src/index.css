@@ -42,7 +42,7 @@ All colors MUST be HSL.
     --radius: 0.75rem;
     
     /* Gradiente Instituto Fluir */
-    --gradient-cultural: linear-gradient(135deg, hsl(202 48% 27%), hsl(174 100% 29%), hsl(42 95% 56%));
+    --gradient-cultural: linear-gradient(135deg, hsl(174 100% 35%), hsl(42 100% 50%), hsl(42 100% 65%));
     
     /* Sombras suaves */
     --shadow-elegant: 0 10px 40px -10px hsl(202 48% 27% / 0.15);
